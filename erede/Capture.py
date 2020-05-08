@@ -1,4 +1,7 @@
-class Capture:
+from erede.RedeSerializable import RedeSerializable
+
+
+class Capture(RedeSerializable):
     def __init__(self):
         self.amount = None
         self.dateTime = None
