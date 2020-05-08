@@ -1,5 +1,5 @@
-from .Phone import Phone
-from .RedeSerializable import RedeSerializable
+from erede.Phone import Phone
+from erede.RedeSerializable import RedeSerializable
 
 
 class Passenger(RedeSerializable):

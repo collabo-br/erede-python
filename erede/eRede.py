@@ -1,4 +1,4 @@
-from .service import *
+from erede.service import *
 
 
 class eRede:

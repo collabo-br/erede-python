@@ -1,7 +1,7 @@
-from .Address import Address
-from .Consumer import Consumer
-from .Iata import Iata
-from .RedeSerializable import RedeSerializable
+from erede.Address import Address
+from erede.Consumer import Consumer
+from erede.Iata import Iata
+from erede.RedeSerializable import RedeSerializable
 
 
 class Cart(RedeSerializable):

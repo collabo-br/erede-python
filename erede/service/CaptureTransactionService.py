@@ -1,4 +1,4 @@
-from .TransactionService import TransactionService
+from erede.service.TransactionService import TransactionService
 
 
 class CaptureTransactionService(TransactionService):

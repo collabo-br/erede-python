@@ -1,6 +1,6 @@
-from .Document import Document
-from .Phone import Phone
-from .RedeSerializable import RedeSerializable
+from erede.Document import Document
+from erede.Phone import Phone
+from erede.RedeSerializable import RedeSerializable
 
 
 class Consumer(RedeSerializable):

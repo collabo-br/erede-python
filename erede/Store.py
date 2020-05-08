@@ -1,4 +1,4 @@
-from .Environment import Environment
+from erede.Environment import Environment
 
 
 class Store:

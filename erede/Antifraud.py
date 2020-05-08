@@ -1,4 +1,4 @@
-from .RedeSerializable import RedeSerializable
+from erede.RedeSerializable import RedeSerializable
 
 
 class Antifraud(RedeSerializable):

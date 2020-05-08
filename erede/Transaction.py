@@ -1,14 +1,14 @@
-from .Additional import Additional
-from .Antifraud import Antifraud
-from .Authorization import Authorization
-from .Cart import Cart
-from .Environment import Environment
-from .RedeSerializable import RedeSerializable
-from .ThreeDSecure import ThreeDSecure
-from .Url import Url
-from .Refund import Refund
-from .Capture import Capture
-from .Iata import Iata
+from erede.Additional import Additional
+from erede.Antifraud import Antifraud
+from erede.Authorization import Authorization
+from erede.Cart import Cart
+from erede.Environment import Environment
+from erede.RedeSerializable import RedeSerializable
+from erede.ThreeDSecure import ThreeDSecure
+from erede.Url import Url
+from erede.Refund import Refund
+from erede.Capture import Capture
+from erede.Iata import Iata
 
 
 class Transaction(RedeSerializable):
@@ -27,7 +27,7 @@ class Transaction(RedeSerializable):
         """
 
         """
-        
+
         """
         self.amount = round(amount*100)
         self.reference = reference
